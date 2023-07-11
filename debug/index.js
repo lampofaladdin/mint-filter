@@ -252,6 +252,6 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { Mint } = nativeBinding
+const { QueryEngine } = nativeBinding
 
-module.exports.Mint = Mint
+module.exports.QueryEngine = QueryEngine
