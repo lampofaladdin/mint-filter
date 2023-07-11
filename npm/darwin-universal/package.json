@@ -1,0 +1,15 @@
+{
+  "name": "@wddv/mint-filter-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "mint-filter.darwin-universal.node",
+  "files": [
+    "mint-filter.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
