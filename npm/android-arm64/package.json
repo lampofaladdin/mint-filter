@@ -11,8 +11,10 @@
   "files": [
     "mint-filter.android-arm64.node"
   ],
+  "description": "a keyword filter tools",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/ZhelinCheng/mint-filter"
 }

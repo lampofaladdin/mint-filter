@@ -11,10 +11,12 @@
   "files": [
     "mint-filter.linux-arm64-musl.node"
   ],
+  "description": "a keyword filter tools",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
+  "repository": "https://github.com/ZhelinCheng/mint-filter",
   "libc": [
     "musl"
   ]

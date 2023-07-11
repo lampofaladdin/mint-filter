@@ -41,5 +41,7 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "repository": "https://github.com/ZhelinCheng/mint-filter",
+  "description": "a keyword filter tools"
 }
