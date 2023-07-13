@@ -6,5 +6,5 @@
 export class Mint {
   keywords: Array<string>
   constructor(keywords: Array<string>)
-  getData(): Array<string>
+  filter(text: string): Array<string>
 }
