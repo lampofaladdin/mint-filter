@@ -21,7 +21,7 @@ impl Mint {
     demo();
     Self { keywords: keywords }
   }
-  
+
   #[napi]
   pub fn filter(&self, text: String) -> napi::Result<Vec<String>> {
     println!("input text: {:?}", text);
@@ -30,6 +30,7 @@ impl Mint {
 }
 
 fn demo() {
-  let b = Tree::new();
+  let mut b = Tree::new();
+  b.insert(String::from("hello"));
   println!("b is {:?}", b);
 }

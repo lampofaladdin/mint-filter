@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 use crate::node::Node;
 
 #[derive(Debug)]
@@ -17,12 +19,29 @@ impl Tree {
   /// ```
   pub fn new() -> Tree {
     Tree {
-      root: Node::new('r', false),
+      root: Node::new('💡', false),
     }
   }
 
   // 插入节点
-  pub fn insert() {}
+  pub fn insert(&mut self, key: String) -> bool {
+    if key.len() == 0 {
+      return false;
+    }
+    let mut key_array: Vec<char> = key.chars().collect();
+    let first_child = key_array[0];
+
+    if self.root.children.is_none() {
+      self.root.children = Some(HashMap::new());
+    }
+
+    // TODO 如何将TS的逻辑变更成rust的逻辑
+    if let Some(self.root.children) = None{
+
+    }
+
+    return true;
+  }
 
   // 删除节点
   pub fn remove() {}
