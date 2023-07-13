@@ -36,6 +36,7 @@ impl Tree {
     }
 
     // TODO 如何将TS的逻辑变更成rust的逻辑
+    // Some vec 如何处理
     if let Some(self.root.children) = None{
 
     }
